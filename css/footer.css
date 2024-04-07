@@ -24,14 +24,12 @@ footer .descricao b{
     color: gray;
 }
 
-@media (min-width: 280px){
-    footer h2::before{
-        content: '— '
-    }
-    
-    footer h2::after{
-        content: ' —'
-    }
+footer h2::before{
+    content: '— '
+}
+
+footer h2::after{
+    content: ' —'
 }
 
 @media (max-width: 590px){

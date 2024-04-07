@@ -78,7 +78,7 @@ main *::selection{
         left: 0;
         width: 100%;
         height: 100%;
-        opacity: 0.3;
+        opacity: 0.5;
         z-index: -1;
     }
 
@@ -118,6 +118,6 @@ main *::selection{
         background-image: url("../img/topico9.jpg");
     }
     .conteudo10::before{
-        background-image: url("../img/topico510.jpg");
+        background-image: url("../img/topico10.jpg");
     }
 }
