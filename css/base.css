@@ -31,9 +31,17 @@ body::before{
 
 body{
     border-top: var(--borda);
-    /* border-bottom: var(--borda); */
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+body::after{
+    content: '';
+    border-bottom: var(--borda);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 5px;
 }
