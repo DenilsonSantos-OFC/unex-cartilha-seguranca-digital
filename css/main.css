@@ -78,7 +78,7 @@ main *::selection{
         left: 0;
         width: 100%;
         height: 100%;
-        opacity: 0.2;
+        opacity: 0.3;
         z-index: -1;
     }
 
@@ -92,5 +92,32 @@ main *::selection{
 
     .conteudo1::before{
         background-image: url("../img/topico1.gif");
+    }
+    .conteudo2::before{
+        background-image: url("../img/topico2.jpg");
+    }
+    .conteudo3::before{
+        background-image: url("../img/topico3.jpg");
+    }
+    .conteudo4::before{
+        background-image: url("../img/topico4.jpg");
+    }
+    .conteudo5::before{
+        background-image: url("../img/topico5.jpg");
+    }
+    .conteudo6::before{
+        background-image: url("../img/topico6.jpg");
+    }
+    .conteudo7::before{
+        background-image: url("../img/topico7.jpg");
+    }
+    .conteudo8::before{
+        background-image: url("../img/topico8.jpg");
+    }
+    .conteudo9::before{
+        background-image: url("../img/topico9.jpg");
+    }
+    .conteudo10::before{
+        background-image: url("../img/topico510.jpg");
     }
 }

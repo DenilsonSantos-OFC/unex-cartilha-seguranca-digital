@@ -24,17 +24,29 @@ footer .descricao b{
     color: gray;
 }
 
-footer h2::before{
-    content: '— '
-}
-
-footer h2::after{
-    content: ' —'
+@media (min-width: 280px){
+    footer h2::before{
+        content: '— '
+    }
+    
+    footer h2::after{
+        content: ' —'
+    }
 }
 
 @media (max-width: 590px){
     footer h2{
         font-weight: bold;
         font-size: 20px;
+    }
+    footer .highlight5, footer .highlight6, .descricao b{
+        display: block;
+        margin-bottom: 10px;
+    }
+    footer h2::before{
+        display: none;
+    }
+    footer h2::after{
+        display: none;
     }
 }
