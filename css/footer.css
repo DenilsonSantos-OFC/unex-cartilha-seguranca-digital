@@ -3,17 +3,16 @@ footer{
     border-top: 2.7px solid rgba(255, 255, 255, 0.3);
     padding-top: 10px;
     font-family: "Alice";
-
-    --fonte-titulo: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 footer h2{
     font-weight: bold;
-    font-size: var(--fonte-titulo);
+    font-size: 18px;
 }
 
 footer p{
-    font-size: calc(var(--fonte-titulo)*2/3);
+    font-size: 14px;
 }
 
 footer .descricao{

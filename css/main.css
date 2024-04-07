@@ -3,6 +3,7 @@ main{
     font-family: "Alice", serif;
     width: fit-content;
     height: fit-content;
+    padding-top: 10px;
 
     --cor-de-links: #00BF63;
     --borda-mobile: 5px solid var(--cor-de-links);
@@ -61,6 +62,8 @@ main *::selection{
         background-color: unset;
         border-top: var(--borda-mobile);
         border-bottom: var(--borda-mobile);
+        /* box-shadow: 1px 1px 10px rgba(0, 255, 34, 0.5); */
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
         width: 30vw;
         margin-bottom: 10px;
     }
@@ -86,7 +89,7 @@ main *::selection{
         background-color: rgba(0, 0, 0, 0.8);
         color: white;
         border: 1px solid white;
-        box-shadow: 1px 1px 10px rgba(0, 255, 34, 0.5);
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7);
         border-radius: 10px;
     }
 
