@@ -10,6 +10,7 @@ main{
 
 main *::selection{
     background-color: yellow;
+    color: black;
 }
 
 .link, .conteudo{
@@ -23,6 +24,7 @@ main *::selection{
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: 1em;
 }
 
 .link{
