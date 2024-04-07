@@ -1,6 +1,7 @@
 :root{
     --cor-padrao: #1D41FF;
-    --borda: 5px solid var(--cor-padrao);
+    --espessura-borda: 5px;
+    --borda: var(--espessura-borda) solid var(--cor-padrao);
     --opacidade: 0.8;
     --highlight1: #FF3131;
     --highlight2: #0EB0C2;
@@ -35,13 +36,4 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-body::after{
-    content: '';
-    border-bottom: var(--borda);
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    height: 5px;
 }

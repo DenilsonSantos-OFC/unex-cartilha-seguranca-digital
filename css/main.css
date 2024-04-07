@@ -1,15 +1,15 @@
 main{
-    margin-top: 20px;
-    font-family: "Alice", serif;   
-
-    --cor-de-links: #00BF63;
-    --borda: 5px solid var(--cor-de-links);
-}
-
-.topicos{
+    margin: 20px auto;
+    font-family: "Alice", serif;
     width: fit-content;
     height: fit-content;
-    margin: auto;
+
+    --cor-de-links: #00BF63;
+    --borda-mobile: 5px solid var(--cor-de-links);
+}
+
+main *::selection{
+    background-color: yellow;
 }
 
 .link, .conteudo{
@@ -57,10 +57,14 @@ main{
 
     .link{
         background-color: unset;
-        border-top: var(--borda);
-        border-bottom: var(--borda);
+        border-top: var(--borda-mobile);
+        border-bottom: var(--borda-mobile);
         width: 30vw;
         margin-bottom: 10px;
+    }
+
+    .link:hover{
+        --borda-mobile: 5px solid white;
     }
 
     .conteudo::before{
