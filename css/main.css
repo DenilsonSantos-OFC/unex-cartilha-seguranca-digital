@@ -14,15 +14,15 @@ main{
 
 .link, .conteudo{
     border-radius: 2px;
-    /* display: inline-block; */
 }
 
 .topico{
     display: flex;
-    /* background-color: gray; */
+    flex-wrap: wrap;
     margin-bottom: 10px;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .link{
@@ -50,9 +50,6 @@ main{
 }
 
 @media (max-width: 860px){
-    .topico, .link, .conteudo{
-        display: inline-block;
-    }
     .topico{
         margin-bottom: 50px;
         position: relative;
@@ -80,8 +77,6 @@ main{
     }
 
     .conteudo{
-        /* color: white; */
-        /* background-color: rgba(176, 255, 217, 0.4); */
         background-color: unset;
         color: white;
         border: 1px solid white;

@@ -9,6 +9,8 @@ header div{
     display: flex;
     width: fit-content;
     height: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header h1{
@@ -39,7 +41,6 @@ header img{
 
 @media (max-width: 933px){
     header div{
-        display: inline-block;
         text-align: center;
     }
     header h1{
@@ -54,5 +55,14 @@ header img{
     }
     header img{
         max-width: 220px;
+    }
+}
+
+@media (max-width: 280px){
+    header h1{
+        font-size: 2em;
+    }
+    header img{
+        max-width: 150px;
     }
 }
