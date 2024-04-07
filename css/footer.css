@@ -1,0 +1,40 @@
+footer{
+    text-align: center;
+    border-top: 2.7px solid rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    font-family: "Alice";
+
+    --fonte-titulo: 24px;
+}
+
+footer h2{
+    font-weight: bold;
+    font-size: var(--fonte-titulo);
+}
+
+footer p{
+    font-size: calc(var(--fonte-titulo)*2/3);
+}
+
+footer .descricao{
+    opacity: 0.5;
+}
+
+footer .descricao b{
+    color: gray;
+}
+
+footer h2::before{
+    content: '— '
+}
+
+footer h2::after{
+    content: ' —'
+}
+
+@media (max-width: 590px){
+    footer h2{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
