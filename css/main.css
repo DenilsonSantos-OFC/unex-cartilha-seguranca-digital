@@ -41,8 +41,8 @@ main *::selection{
 }
 
 .link:hover{
-    background-color: green;
-    box-shadow: 1px 1px 20px rgba(0, 255, 34, 0.5);
+    background-color: greenyellow;
+    box-shadow: 1px 1px 20px rgba(0, 255, 34, 0.8);
 }
 
 .conteudo{
@@ -66,10 +66,6 @@ main *::selection{
         box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
         width: 30vw;
         margin-bottom: 10px;
-    }
-
-    .link:hover{
-        --borda-mobile: 5px solid white;
     }
 
     .conteudo::before{
