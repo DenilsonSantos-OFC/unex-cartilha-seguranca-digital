@@ -46,13 +46,13 @@ main *::selection{
 }
 
 .conteudo{
-    max-width: 85vw;
+    width: 85vw;
     background-color: rgba(176, 255, 217, 1);
     padding: 15px;
     color: black;
 }
 
-@media (max-width: 2860px){
+@media (max-width: 860px){
     .topico{
         margin-bottom: 50px;
         position: relative;
@@ -91,6 +91,7 @@ main *::selection{
         border: 1px solid white;
         box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7);
         border-radius: 10px;
+        width: 100vw;
     }
 
     /* .conteudo1::before{
