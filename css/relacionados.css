@@ -6,10 +6,11 @@
 
 .relacionados p{
     display: block;
-    font-family: "Alice", serif;
+    font-family: "Inter", serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    font-size: 1.2em;
     margin-bottom: 20px;
 }
 

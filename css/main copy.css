@@ -52,11 +52,10 @@ main *::selection{
     color: black;
 }
 
-@media (max-width: 2860px){
+@media (max-width: 860px){
     .topico{
         margin-bottom: 50px;
         position: relative;
-        width: 60vw;
     }
 
     .link{
@@ -73,8 +72,6 @@ main *::selection{
         content: '';
         /* background-image: url("../img/link.jpg"); */
         background-image: url("../img/topico1.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
         display: block;
         position: absolute;
         top: 0;
